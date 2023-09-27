@@ -6,7 +6,7 @@
 
     $info = $sql->fetchAll(); //pegar todas as informações buscadas pela Querry
 
-    //Puxar dado da tabela
+    //Puxar dado da tabela utilizando foreach
 
     foreach ($info as $key => $value){
         $categoria_id = $value['id'];
