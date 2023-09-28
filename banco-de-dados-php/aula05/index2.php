@@ -4,7 +4,7 @@
     $sql =$pdo->prepare("SELECT * FROM posts");
     $sql->execute();
 
-    $info = $sql->fetchAll(); //pegar todas as informações buscadas pela Querry
+    $info = $sql->fetchAll(); //pegar todas as informações buscadas pela Querry.
 
     //Puxar dado da tabela utilizando foreach
 
