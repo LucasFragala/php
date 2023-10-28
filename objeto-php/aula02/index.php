@@ -17,7 +17,8 @@
 </body>
 </html>
 
-<?php 
+<?php
+    //Exemplo
     //incluir um script php, utiliza-se "include"
     include('exemplo.class.php');
     //Instaciar objeto
