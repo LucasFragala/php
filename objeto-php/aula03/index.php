@@ -14,7 +14,7 @@
     <p>No exemplo abaixo, a class Pai herda o método da class Filha. Sendo possível utilizar em um novo objeto tanto o método de Pai quanto de Filha.</p>
 
     <?php 
-
+    //Exemplo
     class Filha{
 
         public function printHello(){
