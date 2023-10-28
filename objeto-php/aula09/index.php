@@ -1,5 +1,5 @@
 <?php
-    //encapsulamento  
+    //encapsulamento
     class minhaClasse{
         const VALOR = 300;
         function __construct(){
