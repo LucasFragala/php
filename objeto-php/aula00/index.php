@@ -9,6 +9,7 @@
 </head>
 <body>
     <?php
+        //exemplo
         require_once 'Caneta.php';
         $c1 = new Caneta;
         $c1->cor = "Azul";
