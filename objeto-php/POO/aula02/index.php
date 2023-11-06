@@ -11,15 +11,14 @@
 <pre>
     <?php
 //exemplo
-use aula01\Caneta;
 
 require_once 'Caneta.php';
 $c1 = new Caneta;
 $c1->cor = "Azul";
 $c1->modelo = "BIC";
 
-$c1->destampar();
-$c1->rabiscar();
+//$c1->destampar();
+//$c1->rabiscar();
 
 print_r($c1);
 
