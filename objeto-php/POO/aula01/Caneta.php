@@ -1,5 +1,6 @@
 <?php
 
+namespace aula01;
 class Caneta
 {
     var $modelo;
@@ -8,17 +9,22 @@ class Caneta
     var $carga;
     var $tampada;
 
-    function rabiscar(){
+    function rabiscar()
+    {
         if ($this->tampada) {
             echo "<p>A caneta está tampada, não posso rabiscar!</p>";
         } else {
             echo "Estou rabiscando";
         }
     }
-    function tampar(){
+
+    function tampar()
+    {
         $this->tampada = true;
     }
-    function destampar(){
+
+    function destampar()
+    {
         $this->tampada = false;
     }
 }

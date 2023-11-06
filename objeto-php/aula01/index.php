@@ -19,7 +19,6 @@
 <?php 
     class Pessoa{
         //Objeto Pessoa
-        //Exemplo
 
         private $nome = 'Lucas';
         private $idade = '28';

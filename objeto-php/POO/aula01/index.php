@@ -10,7 +10,9 @@
 <body>
     <?php
         //exemplo
-        require_once 'Caneta.php';
+    use aula01\Caneta;
+
+    require_once 'Caneta.php';
         $c1 = new Caneta;
         $c1->cor = "Azul";
         $c1->ponta = 0.5;
