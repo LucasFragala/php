@@ -1,7 +1,7 @@
 <?php
 
-namespace aula01;
-class Caneta
+namespace aula02;
+class Caneta02
 {
     public $modelo;
     public $cor;
