@@ -8,17 +8,22 @@
     <title>Aula 00</title>
 </head>
 <body>
-<?php
+<pre>
+    <?php
 //exemplo
 use aula01\Caneta;
 
 require_once 'Caneta.php';
 $c1 = new Caneta;
 $c1->cor = "Azul";
-$c1->ponta = 0.5;
-$c1->tampada = true;
+$c1->modelo = "BIC";
+
 $c1->destampar();
 $c1->rabiscar();
+
+print_r($c1);
+
 ?>
+</pre>
 </body>
 </html>
